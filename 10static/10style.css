@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 12px;
+    font-size: 19px;
+    margin-right: 38px;
+    cursor: pointer;
+}
+#logo img{
+    height: 37px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: rgb(83, 8, 8);
+    padding: 13px 18px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    background: url('/10static/bg.jpg') center/cover no-repeat ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 34px;
+    height: 370px;
+    background-color: rgb(255, 68, 0);
+}
+#introSection div.small{
+    font-size: 18px;
+}
+
+#missionSection{
+    height: 300px;
+    width: 81%;
+    margin: auto;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 23px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 16px 13px;
+    height: 197px;
+    background-color: #f53953;
+}
+.card h3{
+    font-size: 18px;
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 26px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+    margin: 13px 10px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color: rgb(7, 119, 7);
+}
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 23px;
+}
+
+#sponsors{
+    height: 198px;
+    max-width: 1000px;
+    margin: 15px auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    height: 50px;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
